@@ -2,7 +2,7 @@ const successHandler = require('../service/successHandler')
 const errorHandler =require('../service/errorHandler')
 const Post = require('../model/post')
 
-const opts = { runValidators: true }
+const opts = { runValidators: true, new:true }
 const posts = {
     async getPosts(req, res) {
         const allPosts = await Post.find()
@@ -64,6 +64,7 @@ const posts = {
                     )
                 if (updateResult === null) {
                     errorHandler(res, "No such ID, please check again") 
+                    return
                 }
             successHandler(res, updateResult)        
             }

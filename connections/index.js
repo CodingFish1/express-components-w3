@@ -11,3 +11,5 @@ mongoose
     .connect(DB)
     .then(() => console.log('Connected to the DB'))
     .catch(() => console.log('Error in DB connection'))
+
+//mongodb://127.0.0.1:27017

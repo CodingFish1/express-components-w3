@@ -8,7 +8,7 @@ router.get('/', PostsControllers.getPosts);
 
 router.post('/', PostsControllers.createdPosts);
 
-router.delete('/',PostsControllers.delAllPost);
+router.delete('/allposts',PostsControllers.delAllPost);
 
 router.delete('/:id',PostsControllers.delSiglePost);
 
