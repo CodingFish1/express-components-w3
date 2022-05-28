@@ -18,7 +18,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://floating-waters-11976.herokuapp.com/posts",
+					"raw": "https://floating-waters-11976.herokuapp.com/post",
 					"protocol": "https",
 					"host": [
 						"floating-waters-11976",
@@ -26,7 +26,7 @@
 						"com"
 					],
 					"path": [
-						"posts"
+						"post"
 					]
 				}
 			},
@@ -47,7 +47,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://floating-waters-11976.herokuapp.com/posts",
+					"raw": "https://floating-waters-11976.herokuapp.com/post",
 					"protocol": "https",
 					"host": [
 						"floating-waters-11976",
@@ -55,7 +55,7 @@
 						"com"
 					],
 					"path": [
-						"posts"
+						"post"
 					]
 				}
 			},
@@ -67,7 +67,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://floating-waters-11976.herokuapp.com/posts/627dcf33d66ee71cce467b3e",
+					"raw": "https://floating-waters-11976.herokuapp.com/post/",
 					"protocol": "https",
 					"host": [
 						"floating-waters-11976",
@@ -75,8 +75,8 @@
 						"com"
 					],
 					"path": [
-						"posts",
-						"627dcf33d66ee71cce467b3e"
+						"post",
+						""
 					]
 				}
 			},
@@ -88,7 +88,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://floating-waters-11976.herokuapp.com/posts/",
+					"raw": "https://floating-waters-11976.herokuapp.com/post/allposts/",
 					"protocol": "https",
 					"host": [
 						"floating-waters-11976",
@@ -96,7 +96,8 @@
 						"com"
 					],
 					"path": [
-						"posts",
+						"post",
+						"allposts",
 						""
 					]
 				}
@@ -113,7 +114,7 @@
 					"raw": "{\r\n  \"name\": \"dddddd\",\r\n  \"tags\": \"tags\",\r\n  \"type\": \"group\",\r\n  \"image\": \"image\",\r\n  \"content\": \"content\",\r\n  \"likes\": 2,\r\n  \"comments\": 2\r\n}"
 				},
 				"url": {
-					"raw": "https://floating-waters-11976.herokuapp.com/627dd0fe8101b2bf24ac602d",
+					"raw": "https://floating-waters-11976.herokuapp.com/post",
 					"protocol": "https",
 					"host": [
 						"floating-waters-11976",
@@ -121,7 +122,7 @@
 						"com"
 					],
 					"path": [
-						"627dd0fe8101b2bf24ac602d"
+						"post"
 					]
 				}
 			},
